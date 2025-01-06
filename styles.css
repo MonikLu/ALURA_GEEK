@@ -1,0 +1,210 @@
+:root {
+    --primary-purple: #6a1b9a;
+    --secondary-purple: #9c27b0;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", serif;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-purple);
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo h1 {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.logo i {
+    color: var(--white);
+    margin-right: 0.3rem;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+/* Products Section */
+.products-section {
+    background-color: rgba(106, 27, 154, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.products-section h2 {
+    color: var(--secondary-purple);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+/* Card Styles */
+.card {
+    background-color: var(--black);
+    border: 2px solid var(--primary-purple);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-container--info {
+    padding: 1rem;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--secondary-purple);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.delete-btn:hover {
+    color: #ff0000;
+}
+
+/* Form Section */
+.form-section {
+    background-color: rgba(106, 27, 154, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.form-section h2 {
+    color: var(--secondary-purple);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid var(--primary-purple);
+    border-radius: 5px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--secondary-purple);
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+}
+
+.btn-primary {
+    background-color: var(--primary-purple);
+    color: var(--white);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid var(--primary-purple);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-purple);
+}
+
+.btn-secondary:hover {
+    background-color: rgba(106, 27, 154, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-purple);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container p {
+    margin-top: 1rem;
+    color: var(--white);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
