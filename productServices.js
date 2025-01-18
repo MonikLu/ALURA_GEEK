@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://my-json-server.typicode.com/MonikLu/ALURA_GEEK';
 
 // GET - Obtener todos los productos
 export const getProducts = async () => {
