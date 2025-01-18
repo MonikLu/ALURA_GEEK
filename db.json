@@ -5,18 +5,12 @@
       "name": "Game Boy",
       "price": 690,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6SR5mzkbEeD_miPsxpbpu1A2GObhPCF0ng&s"
-    },
+    }
     {
-      "id": "7291",
-      "name": "Play Station 5",
-      "price": 890,
-      "image": "https://cosonyb2c.vtexassets.com/arquivos/ids/360392/711719595700_001.jpg?v=638645914784400000"
-    },
-    {
-      "id": "17c1",
-      "name": "Control Inalámbrico Rojo Metalizado - PlayStation 5",
-      "price": 25,
-      "image": "https://blisstechnology.com.co/wp-content/uploads/control-ps5-rojo-metalizado.jpg"
+      "id": 2,
+      "name": "Stormtrooper Controller",
+      "price": 59.99,
+      "image": "https://placehold.co/200x200"
     }
   ]
 }
