@@ -14,7 +14,7 @@ AluraGeek es una aplicación web de comercio electrónico especializada en produ
 
 🖼️ Soporte para imágenes de productos
 
-🛠️ Tecnologías Utilizadas
+🛠️ Tecnologías Utilizadas:
 
 HTML5
 
@@ -30,13 +30,13 @@ API REST
 
 💻 Uso
 
-*Visualizar Productos*
+*Visualizar Productos*:
 
 Los productos se cargan automáticamente al abrir la página
 
 Se muestran en una cuadrícula con imagen, nombre y precio
 
-*Agregar Productos*
+*Agregar Productos*:
 
 Completa el formulario con:
 
