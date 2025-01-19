@@ -1,4 +1,5 @@
 🎮 AluraGeek - Tienda Gaming
+
 AluraGeek es una aplicación web de comercio electrónico especializada en productos gaming. El proyecto permite a los usuarios ver, agregar y eliminar productos de la tienda, con una interfaz moderna y temática gaming.
 
 ✨ Características
