@@ -3,14 +3,9 @@
     {
       "id": "a9dd",
       "name": "Game Boy",
-      "price": 690,
+      "price": 100.90,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6SR5mzkbEeD_miPsxpbpu1A2GObhPCF0ng&s"
-    },
-    {
-      "id": 2,
-      "name": "Stormtrooper Controller",
-      "price": 59.99,
-      "image": "https://placehold.co/200x200"
     }
+
   ]
 }
