@@ -1,11 +1,34 @@
 {
   "products": [
     {
-      "id": "a9dd",
+      "id": "1",
       "name": "Game Boy",
       "price": 100.90,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6SR5mzkbEeD_miPsxpbpu1A2GObhPCF0ng&s"
+    },
+    {
+      "id": "2",
+      "nombre": "Apple watch",
+      "precio": 100,
+      "imagen": "https://www.costco.com.mx/medias/sys_master/products/h4b/hd7/188945428348958.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Samsung S23 Ultra",
+      "precio": 230,
+      "imagen": "https://images.samsung.com/is/image/samsung/p6pim/mx/2302/gallery/mx-galaxy-s23-s918-sm-s918blioltm-534853889?$650_519_PNG$"
+    },
+    {
+      "id": "4",
+      "nombre": "Ipad Pro 2TB",
+      "precio": 190,
+      "imagen": "https://globaloffice.com.mx/img/CT/ipadapp512-z1.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Smart Tv 50",
+      "precio":  200,
+      "imagen": "https://cdn1.coppel.com/images/catalog/pm/2096523-1.jpg"
     }
-
   ]
 }
