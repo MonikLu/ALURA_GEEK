@@ -18,6 +18,7 @@ const validateForm = () => {
 
 form.addEventListener('submit', async (event) => {
     event.preventDefault();
+    console.log('Formulario enviado');
 
     if (!validateForm()) {
         alert('Por favor, complete todos los campos');
@@ -29,13 +30,20 @@ form.addEventListener('submit', async (event) => {
         price: parseFloat(inputs.price.value),
         image: inputs.image.value.trim()
     };
+    console.log('Datos del producto a enviar:', productData);
 
     try {
-        await createProduct(productData);
-        await renderProducts(); // Actualizar la lista de productos
-        clearForm();
+        const newProduct = await createProduct(productData);
+        console.log('Respuesta del servidor:', newProduct);
+        
+        if (newProduct) {
+            alert('Producto agregado exitosamente');
+            await renderProducts(); // Actualizar la lista de productos
+            clearForm();
+        }
     } catch (error) {
-        alert('Error al crear el producto');
+        console.error('Error completo:', error);
+        alert('Error al crear el producto: ' + error.message);
     }
 });
 

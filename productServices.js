@@ -21,7 +21,17 @@ export const createProduct = async (productData) => {
             },
             body: JSON.stringify(productData)
         });
-        return await response.json();
+
+        if (!response.ok) {
+            const errorData = await response.text();
+            console.error('Error response:', errorData);
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log('Producto creado:', data);
+        return data;
+
     } catch (error) {
         console.error('Error al crear producto:', error);
         throw error;
@@ -34,7 +44,13 @@ export const deleteProduct = async (id) => {
         const response = await fetch(`${API_URL}/products/${id}`, {
             method: 'DELETE'
         });
-        return response.ok;
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        return true;
+
     } catch (error) {
         console.error('Error al eliminar producto:', error);
         throw error;
