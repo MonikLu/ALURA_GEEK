@@ -5,18 +5,27 @@ AluraGeek es una aplicación web de comercio electrónico especializada en produ
 ✨ Características
 
 📱 Diseño responsivo
+
 🎨 Interfaz temática gaming
+
 ✅ CRUD de productos
+
 🎯 Validación de formularios
+
 🖼️ Soporte para imágenes de productos
 
 🛠️ Tecnologías Utilizadas
 
 HTML5
+
 CSS3
+
 JavaScript
+
 JSON Server
+
 Font Awesome
+
 API REST
 
 💻 Uso
@@ -24,6 +33,7 @@ API REST
 *Visualizar Productos*
 
 Los productos se cargan automáticamente al abrir la página
+
 Se muestran en una cuadrícula con imagen, nombre y precio
 
 *Agregar Productos*
@@ -31,7 +41,9 @@ Se muestran en una cuadrícula con imagen, nombre y precio
 Completa el formulario con:
 
 Nombre del producto
+
 Precio
+
 URL de la imagen
 
 
