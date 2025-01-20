@@ -41,15 +41,15 @@ Se muestran en una cuadrícula con imagen, nombre y precio
 
 Completa el formulario con:
 
-Nombre del producto
+-Nombre del producto
 
-Precio
+-Precio
 
-URL de la imagen
+-URL de la imagen
 
 
 Haz clic en "Enviar"
 
-Eliminar Productos
+-Eliminar Productos
 
-Haz clic en el icono de papelera en cualquier producto para eliminarlo
+-Haz clic en el icono de papelera en cualquier producto para eliminarlo
