@@ -17,17 +17,17 @@ AluraGeek es una aplicación web de comercio electrónico especializada en produ
 
 🛠️ Tecnologías Utilizadas:
 
-HTML5
+-HTML5
 
-CSS3
+-CSS3
 
-JavaScript
+-JavaScript
 
-JSON Server
+-JSON Server
 
-Font Awesome
+-Font Awesome
 
-API REST
+-API REST
 
 💻 Uso
 
